@@ -1,0 +1,9 @@
+{
+  "$schema": "https://deno.land/x/denon/schema.json",
+  "scripts": {
+    "start": "deno run --allow-all --unstable main.ts "
+  },
+  "watcher": {
+    "ext": ["js", "ts", "json"]
+  }
+}
