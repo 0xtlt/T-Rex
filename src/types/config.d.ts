@@ -1,8 +1,9 @@
+/* eslint-disable import/prefer-default-export */
 type ConfigTRex = {
   installed: boolean;
   infos: {
-    blog_name: string;
-    blog_description: string;
+    blogName: string;
+    blogDescription: string;
   };
   theme: string;
 };
